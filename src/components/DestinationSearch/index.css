@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-image-con {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.image {
+  height: 30px;
+  text-align: center;
+  background-color: #f1f5f9;
+}
+
+.input-edit {
+  background-color: #f1f5f9;
+  color: #000000;
+  border-width: 0px;
+  border-style: none;
+  border-color: transparent;
+  outline: none;
+}
+
+.new-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
